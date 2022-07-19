@@ -1,63 +1,28 @@
-CRUD ini menggunakan Node.js dengan framework Express.js dan menggunakan database MongoDB
+CRUD ini menggunakan Node.js dengan framework Express.js dan menggunakan database MySql2
 
 "API"
 
-User/Pegawai
+Admin
 
-    Method: "GET dan POST",
-    URL : "/api/user/",
-    Method: "PUT dan DELETE",
-    URL : "/api/user/:id",
-
-Description :
-
-    Untuk Data pegawai/user saya relasikan dengan kehadiran
+    Method: "POST",
+    URL : "/api/register/",
+    Method: "GET",
+    URL : "/api/admin/",
+    Method: "GET",
+    URL : "/api/task/common",
 
 =========================================
 
-Absen/Kehadiran
+Job
 
-    Method: "GET dan POST",
-    URL : "/api/attendence/",
-    Method: "PUT dan DELETE",
-    URL : "/api/attendence/:id",
-
-Description :
-
-    Untuk Data pegawai/user saya relasikan dengan kehadiran
+    Method: "POST",
+    URL : "/api/assign/",
+    Method: "GET",
+    URL : "/api/job/",
+    Method: "DELETE",
+    URL : "/api/unassign/:id",
 
 =========================================
-
-Izin cuti
-
-    Method: "GET dan POST",
-    URL : "/api/leave/",
-    Method: "PUT dan DELETE",
-    URL : "/api/leave/:id",
-Description :
-
-    Untuk bisa mendapatkan approval pegawai harus mendapatkan persetujuan
-    dari departement/admin.
-    karna itu saya relasikan izin cuti dengan departement/admin
-
-
-=========================================
-
-Departement/Admin
-
-    Method: "GET dan POST",
-    URL : "/api/departement/",
-    Method: "PUT dan DELETE",
-    URL : "/api/departement/:id",
-
-=========================================
-
-Laporan bulanan
-
-    Method: "GET dan POST",
-    URL : "/api/report/",
-    Method: "PUT dan DELETE",
-    URL : "/api/report/:id",
 
 
 Thank You!
